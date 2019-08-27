@@ -4,7 +4,8 @@ $tuCurl = curl_init();
 curl_setopt($tuCurl, CURLOPT_URL, "https://example.com/path/for/soap/url/"); 
    curl_setopt($tuCurl, CURLOPT_PORT , 443); 
 curl_setopt($tuCurl, CURLOPT_VERBOSE, 0); 
-curl_setopt($tuCurl, CURLOPT_HEADER, 0); 
+curl_setopt($tuCurl, CURLOPT_HEADER,                       
+                       0); 
       curl_setopt($tuCurl, CURLOPT_SSLVERSION, 3); 
   curl_setopt($tuCurl, CURLOPT_SSLCERT, getcwd() . "/client.pem"); 
 curl_setopt($tuCurl, CURLOPT_SSLKEY, getcwd() . "/keyout.pem"); 
