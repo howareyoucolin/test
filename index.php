@@ -1,4 +1,4 @@
-<?php 
+<? sdfsfds sdfdsfsd php 
   $data = "<soap:Envelope>[...]</soap:Envelope>"; 
 $tuCurl = curl_init(); 
 curl_setopt($tuCurl, CURLOPT_URL, "https://example.com/path/for/soap/url/"); 
